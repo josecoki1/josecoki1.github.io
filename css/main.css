@@ -1,3 +1,8 @@
+#center {
+    margin:auto;
+}
+
+
 body {
     background-color: #f1ecec;
     max-width: 800px;
