@@ -17,6 +17,9 @@ header, footer {
 
 }
 
+#profilePic {
+    float: right;
+}
 
 h1 {
     line-height: 1.75rem;
