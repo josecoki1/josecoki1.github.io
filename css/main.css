@@ -1,12 +1,11 @@
 #center {
-    margin:auto;
+    max-width: 800px;
+    margin: auto;
 }
 
 
 body {
     background-color: #f1ecec;
-    max-width: 800px;
-    margin: 1.5rem auto;
     font-size: 16px;
     font-family: 'Georgia', serif;
     line-height: 1.5rem;
@@ -15,7 +14,7 @@ body {
 
 header, footer {
     margin: 1rem;
-    padding: 1rem;background-color: rgb(24, 54, 78);
+    padding: 1rem;background-color: rgba(20, 90, 52, 0.884);
     color:#fff;
     text-align: center;
     border-radius: 1rem;
@@ -24,6 +23,7 @@ header, footer {
 
 #profilePic {
     float: right;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, .5);
 }
 
 h1 {
