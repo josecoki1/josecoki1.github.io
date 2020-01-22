@@ -1,10 +1,12 @@
-/* Desktop Views ****************************/
-@media only screen and (min-width: 60em) {
-	main {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
+/* desktop view ********************************/
 
-	section:nth-child(3) {
-		grid-column: span 1;
-	}
-}
+@media (min-width: 60em) {
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    section:nth-child(3) {
+        grid-column: span 1;
+    }
+    }
