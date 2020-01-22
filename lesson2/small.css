@@ -1,0 +1,28 @@
+/* phone or baseline views **************************/
+main {
+	max-width: 767px;
+	margin: 0 auto;
+}
+h2 {
+	color: #536878;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+}
+
+main section {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #eee;
+}
+section:nth-child(2) {
+	display: none;
+	margin: 0.5rem;
+}
+.colimage {
+	box-shadow: 0 0 30px #333;
+}
